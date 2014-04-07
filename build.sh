@@ -2,17 +2,17 @@
 
 # Yay shell scripting! This script builds a static version of
 # OpenSSL ${OPENSSL_VERSION} for iOS 7.0 that contains code for
-# armv6, armv7, arm7s and i386.
+# armv7, arm7s, arm64, i386 and x86_64.
 
 set -x
 
 # Setup paths to stuff we need
 
-OPENSSL_VERSION="1.0.1e"
+OPENSSL_VERSION="1.0.1g"
 
 DEVELOPER="/Applications/Xcode.app/Contents/Developer"
 
-SDK_VERSION="7.0"
+SDK_VERSION="7.1"
 MIN_VERSION="4.3"
 
 IPHONEOS_PLATFORM="${DEVELOPER}/Platforms/iPhoneOS.platform"
